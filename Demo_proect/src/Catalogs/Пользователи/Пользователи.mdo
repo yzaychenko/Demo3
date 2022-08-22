@@ -38,6 +38,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="1dd59f4a-5a8b-4781-bb65-fbb83a3cde22">
     <name>ПолноеИмя</name>
     <synonym>
@@ -115,4 +116,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="36c3e004-3734-433f-9386-76a57416fc13">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
